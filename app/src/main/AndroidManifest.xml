@@ -19,7 +19,7 @@
 
         <provider
             android:name=".CourseCatalog"
-            android:authorities="edu.ksu.cs.coursecatalog.provider"
+            android:authorities="edu.ksu.cs.coursecatalogapplication.provider"
             android:enabled="true"
             android:exported="true"></provider>
     </application>

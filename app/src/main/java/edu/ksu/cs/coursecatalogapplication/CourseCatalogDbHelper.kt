@@ -14,13 +14,13 @@ object CourseCatalogContract{
         const val COLUMN_NAME_NUMBER = "number"
         const val COLUMN_NAME_TITLE = "title"
         const val COLUMN_NAME_DESCRIPTION = "description"
-        const val COLUMN_NAME_MINHOURS = "minHours"
-        const val COLUMN_NAME_MAXHOURS = "maxHours"
+        const val COLUMN_NAME_MINHOURS = "min_hours"
+        const val COLUMN_NAME_MAXHOURS = "max_hours"
         const val COLUMN_NAME_VARIABLEHOURS = "variableHours"
         const val COLUMN_NAME_REQUISITES = "requisites"
         const val COLUMN_NAME_SEMESTERS = "semesters"
         const val COLUMN_NAME_UGE = "uge"
-        const val COLUMN_NAME_KSTATE9 = "kstate8"
+        const val COLUMN_NAME_KSTATE8 = "kstate8_text"
     }
 }
 

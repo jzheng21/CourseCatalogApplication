@@ -5,7 +5,6 @@ import android.content.ContentValues
 import android.content.UriMatcher
 import android.database.Cursor
 import android.net.Uri
-import android.provider.BaseColumns
 
 class CourseCatalog : ContentProvider() {
 
@@ -15,7 +14,7 @@ class CourseCatalog : ContentProvider() {
 
     // CourseCatalog Constants
     companion object {
-        val AUTHORITY = "edu.ksu.cs.coursecatalog.provider"
+        val AUTHORITY = "edu.ksu.cs.coursecatalogapplication.provider"
         val BASE_URL = Uri.parse("content://$AUTHORITY")
     }
 
